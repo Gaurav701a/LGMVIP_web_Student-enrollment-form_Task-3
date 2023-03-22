@@ -1,0 +1,117 @@
+/* Global styles */
+body {
+    /* background: linear-gradient(to bottom, #f7f7f7, #dcdcdc); */
+    background-color: #F0F8FF;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  :root {
+    --primary-color: #007bff;
+    --secondary-color: #0062cc;
+    --light-gray: #f7f7f7;
+    --medium-gray: #dcdcdc;
+    --dark-gray: #4d4d4d;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-image: url('pattern.png');
+    background-repeat: repeat;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Specific styles */
+  #student-info {
+    margin-top: 50px;
+  }
+  
+  #student-info h2 {
+    margin-top: 0;
+  }
+  
+  #student-info p {
+    margin-bottom: 10px;
+  }
+  
+  #student-info img {
+    display: block;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+.boxi{
+  border-style: solid;
+  border-width: 10;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: #FFFAF0;
+}            
+
+.student-info__container {
+  display: flex;
+  /* align-items: center; */
+  border: solid ;
+  margin-left:250px;
+  margin-right:250px;
+  padding-left:150px;
+  padding-right:100px;
+  border-radius: 30%;
+}
+
+.student-info__image {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.student-info__text {
+  display: flex;
+  flex-direction: column;
+}
