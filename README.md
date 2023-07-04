@@ -3,7 +3,6 @@
 This project is a student registration form created using HTML, CSS, and JavaScript. The data entered by the user is displayed on the same page when submitted.
 
 ## Installation
-
 1) Clone the repository:
 
 ```bash
